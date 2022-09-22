@@ -20,7 +20,7 @@
         <p></p>
 
         <h2 id="header-2">SafeTI</h2>
-        <p>The Safe Traffic Injector unit acts as an AHB Master IP connected to the main AMBA bus. It acts as a core with limited capabilities, only generating
+        <p>The Safe Traffic Injector (SafeTI for short) unit acts as an AHB Master IP connected to the main AMBA bus. It acts as a core with limited capabilities, only generating
 		transactions to the bus by reading and writing to the AHB Slave RAM memory and controlled via APB registers. The injector works along with the multi-core 
 		setup instantiated on the platform and other peripherals and monitoring units. In order to generate traffic to the bus, the module performs a set of AMBA 
 		transactions based on data descriptors set at startup into a predefined memory address range.</p>
@@ -34,14 +34,14 @@
 		</a></p>
 
         <h2 id="header-2">SafeDE</h2>
-        <p>This hardware module provides light-lockstep support by means of a non-intrusive and flexible hardware module that preserves staggering across cores running
+        <p>SafeDE (Safe Diversity Enforcer): This hardware module provides light-lockstep support by means of a non-intrusive and flexible hardware module that preserves staggering across cores running
 		redundant threads, thus bringing time diversity to avoid common cause failures.</p>
         <p><a href="https://gitlab.bsc.es/caos_hw/hdl_ip/bsc_lightlock/"><img src="img/logo-extra-whitespace.png">Access to SafeDE repository
 		</a></p>
 	  
 	<h2 id="header-2">SafeDM</h2>
-        <p>This hardware module provides support to monitor the diversity between two redundant processors.</p>
-        <p><a href="https://gitlab.bsc.es/caos_hw/hdl_ip/diversity_quantifier"><img src="img/logo-extra-whitespace.png">Access to SafeDE repository
+        <p>SafeDM (Safe Diversity Measurer): This hardware module provides support to monitor the diversity between two redundant processors executing redundant tasks.</p>
+        <p><a href="https://gitlab.bsc.es/caos_hw/hdl_ip/diversity_quantifier"><img src="img/logo-extra-whitespace.png">Access to SafeDM repository
 		</a></p>
 
 
